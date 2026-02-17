@@ -1,0 +1,36 @@
+:root {
+  color-scheme: dark;
+  font-family: "Segoe UI", "PingFang SC", sans-serif;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #0c1222;
+}
+
+#hud {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 10;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  max-width: 520px;
+}
+
+#hud h1 {
+  margin: 0;
+  font-size: 18px;
+}
+
+#hud p {
+  margin: 8px 0 0;
+  font-size: 14px;
+}
+
+canvas {
+  display: block;
+}
